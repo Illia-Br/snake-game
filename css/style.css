@@ -161,7 +161,8 @@ p {
   
   #snake-control button {
     font-size: 1.5rem;
-    width: 60px;
+    width: 80px;
+    text-align: center;
   }
 
   #game-control > button {
@@ -180,5 +181,13 @@ p {
 
   #vertical {
     margin: auto 10px;
+  }
+
+  .snake-body {
+    border-radius: 4px;
+  }
+  
+  .snake-head {
+    border-radius: 5px;
   }
 }
